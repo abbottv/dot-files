@@ -81,11 +81,11 @@ set background=dark
 " how backspace works at start of line
 set backspace=indent,eol,start 
 " keep backup file after overwriting a file
-set backup
+"set backup
 " list of directories for the backup file
-set backupdir=~/tmp
+set backupdir=/tmp
 " rule a line under the cursor position
-set cursorline
+"set cursorline
 " encoding used internally
 set encoding=utf-8
 " use spaces when <Tab> is inserted

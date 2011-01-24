@@ -34,7 +34,7 @@ if [ $system_name == 'Linux' ]; then
 else
   [ -f /opt/local/etc/bash_completion ] && . /opt/local/etc/bash_completion
   [ -f ~/.bash_completion.d/git-flow-completion.bash ] && . ~/.bash_completion.d/git-flow-completion.bash
-  export EDITOR='mate -w'
+  export EDITOR='vim'
 fi
 
 export ARCHFLAGS='-arch x86_64'
@@ -61,10 +61,11 @@ if [ "$TERM" != "dumb" ]; then
     color_option='--color=auto'
     alias du='du -k --max-depth=1'
   else
-    color_option='-G'
+    #color_option='-G'
+    color_option=''
     alias du='du -k -d1'
     alias top='top -o cpu'
-    alias vi='mate'
+    alias vi='vim'
   fi
 
   alias ls="ls $color_option"
