@@ -4,8 +4,8 @@
   co = checkout
   log = log --oneline --decorate
 [user]
-	name = Tom Adams
-	email = tomjadams@gmail.com
+	name = Valerie Abbott
+	email = valerie@mogeneration.com
 [color]
   diff = auto
   status = auto
