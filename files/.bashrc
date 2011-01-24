@@ -32,8 +32,8 @@ if [ $system_name == 'Linux' ]; then
   [ -f /etc/bash_completion ] && . /etc/bash_completion
   export EDITOR='vim'
 else
-  [ -f /opt/local/etc/bash_completion ] && . /opt/local/etc/bash_completion
-  [ -f ~/.bash_completion.d/git-flow-completion.bash ] && . ~/.bash_completion.d/git-flow-completion.bash
+  [ -f /usr/local/etc/bash_completion.d/git-completion.bash ] && . /usr/local/etc/bash_completion.d/git-completion.bash 
+  [ -f /usr/local/etc/bash_completion.d/git-flow-completion.bash ] && . /usr/local/etc/bash_completion.d/git-flow-completion.bash 
   export EDITOR='vim'
 fi
 
